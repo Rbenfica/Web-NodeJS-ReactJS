@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section{
+  top: 10%;
+  left: 39%;
+  width: 22%;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  color: orange;
+}
+
+.conteiner{
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-style: double;
+  width: 100%;
+}
+
+.contagem{
+  font-size: 6em;
+  border: solid black;
+  border-style: double;
+  width: 40%;
+  height: 30%;
+  left: 30%;
+  position: relative;
+  color: rgb(172, 22, 22);
+  
+}
+
+.mais button{
+  margin-top: 10%;
+  font-size: 5em;
+  border: solid green;
+  border-style: double;
+  width: 80%;
+  font-weight: 900;
+  color: green;
+  padding: 0%;
+}
+
+.menos button{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 5em;
+  border: solid red;
+  border-style: double;
+  width: 80%;
+  font-weight: 900;
+  color: red;
+}
